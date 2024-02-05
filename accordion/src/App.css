@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  background-color: rgb(224, 200, 255);
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90vw;
+  margin: 5rem auto;
+  padding: 2rem;
+  max-width: 920px;
+  text-align: center;
+}
+
+.container h2 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+.btn {
+  background: transparent;
+  border: transparent;
+  width: 2rem;
+  height: 2rem;
+  background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(230, 213, 252);
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 1rem;
+  align-self: center;
+  min-width: 2rem;
+}
+
+.content {
+  background-color: rgb(255, 253, 240);
+  padding: 1rem 1.5rem;
+  border: 1.5px solid #eae6eb;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.content header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content p {
+  color: rgb(146, 113, 190);
+}
