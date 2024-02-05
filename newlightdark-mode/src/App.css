@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  font-family: Apercu, Gill Sans, sans-serif;
+}
+
+.containerlight☀️ {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 240);
+}
+
+header,
+main {
+  width: 1280px;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(18, 18, 80);
+}
+
+header {
+  align-items: center;
+}
+
+h1 {
+  font-family: "MuseoModerno", sans-serif;
+  font-weight: 800;
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+main {
+  height: 450px;
+  text-align: center;
+  align-items: center;
+  background-color: cornsilk;
+  border-radius: 36px;
+  box-shadow: 10px 10px #aaaaaa;
+}
+
+main img {
+  width: 63%;
+}
+
+header.dark🌙 {
+  background-color: rgb(9, 9, 41);
+  color: aliceblue;
+}
+
+main.dark🌙 {
+  background-color: rgb(18, 18, 80);
+  color: aliceblue;
+  box-shadow: 10px 10px #292929;
+}
+
+main.dark🌙 h1 {
+  color: tomato;
+}
+
+.containerdark🌙{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(9, 9, 41);;
+}
