@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+aside {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkblue;
+  font-weight: bold;
+  font-size: larger;
+  padding: 1rem 3rem 0 3rem;
+  /* width: 100%; */  
+  box-sizing: border-box;
+}
+
+.nav-toggle {
+  width: 90px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  border: 2px solid;
+}
+
+.nav-toggle:hover {
+  box-shadow: 3px 4px darkblue;
+}
+
+.text-thai {
+  color: plum;
+  padding-left: 14px;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.nav-menu {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: -100%;
+  transition: 850ms;
+  border-radius: 6px;
+  background-color: darkblue;
+  box-shadow: 6px 6px plum;
+  width: 220px;
+  height: 85vh;
+  margin: 0.7rem 0 0 3rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.nav-menu li {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 120px;
+  height: 20px;
+  padding: 1rem;
+  /* padding-left: 2rem; */
+  /* margin: 25px 0; */
+  /* background-color: white; */
+}
+
+.menu-text:hover {
+  border: 1px solid rgb(205, 205, 205);
+  box-shadow: 3px 3px rgb(205, 205, 205);
+  width: 120px;
+  height: 20px;
+  /* box-sizing: border-box; */
+}
+
+.nav-menu.active {
+  left: 0;
+  transition: 350ms;
+}
+
+.nav-menu-item {
+  /* background-color: white; */
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.menu-text a {
+  text-decoration-color: plum;
+  display: flex;
+  align-items: center;
+  padding-left: 0.8rem;
+}
+
+.close {
+  border: 2px solid;
+  border-radius: 30%;
+  padding: 4px;
+  cursor: pointer;
+  position: absolute;
+  left: 80%;
+}
+
+.close:hover {
+  box-shadow: 2px 2px plum;
+}
