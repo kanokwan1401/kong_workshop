@@ -1,0 +1,54 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(7, 16, 33);
+  text-align: center;
+  font-size: 1.5rem;
+  color: aliceblue;
+  font-weight: 700;
+}
+
+.image {
+  width: 800px;
+  border-radius: 14px;
+  box-shadow: 8px 8px 5px rgb(5, 5, 36);
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 150px;
+  font-size: 4rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 150px;
+  font-size: 4rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.slide {
+  opacity: 0;
+  transition: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transform: scale(1.08);
+  transition-duration: 1s;
+}
