@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #ffe6f8, #b627d3);
+}
+
+h2 {
+  font-size: 2rem;
+  color: darkblue;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.form-group {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 50px;
+  border-radius: 10px;
+}
+
+.form-group h2 {
+  color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fbf2fc;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+}
+
+.submit-btn {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: deeppink;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+  padding: 1rem;
+  background-color: #fbf2fc;
+  border-radius: 8px;
+  box-shadow: 0 3px 4px rgba(148, 147, 147, 0.2);
+}
+
+.alert {
+  margin-bottom: 1rem;
+  padding: 0.1rem 1.7rem;
+  font-size: 14px;
+  color: dimgray;
+}
+
+.alert.error {
+  color: crimson;
+}
+
+.alert.success {
+  color: green;
+}
+
+.btn {
+  font-size: 1.2rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
