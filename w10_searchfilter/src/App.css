@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #f4f4f0;
+}
+
+.container {
+  width: 96%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 48px;
+}
+
+.card {
+  width: 260px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.card-title {
+  height: 150px;
+  width: 100%;
+}
+
+.card-title img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  object-position: center;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.card-body {
+  padding: 32px 15px;
+}
+
+.card-list {
+  margin-top: 16px;
+}
+
+.card-list li span {
+  margin-top: 8px;
+  color: grey;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.card:hover {
+  box-shadow: 4px 4px;
+}
+
+.search-container {
+  margin: 48px 0;
+}
+
+.search-input {
+  padding: 1.4em 1.4em;
+  width: 97%;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid black;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid black;
+}
+
+::placeholder {
+  color: rgb(179, 179, 179);
+  font-weight: 100;
+}
