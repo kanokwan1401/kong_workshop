@@ -4,7 +4,7 @@ import CartItem from "./CartItem";
 import { MyCartContext } from "../management/Context";
 
 const Cart = () => {
-  const { cart, total } = MyCartContext();
+  const { cart, total, formatNumber } = MyCartContext();
   if (cart.length === 0) {
     return (
       <div className="shopping-cart">
@@ -23,7 +23,7 @@ const Cart = () => {
         })}
         <div className="footer">
           <span>Subtotal</span>
-          <span><b>{total}</b> bath</span>
+          <span><b>{formatNumber(total)}</b> bath</span>
         </div>
       </div>
     );
